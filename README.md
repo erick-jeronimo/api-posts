@@ -24,7 +24,7 @@ As tecnologias utilizadas neste projeto foram:
 2. Clone o repositório do projeto
 
 ```
-git clone ...
+git clone [...](https://github.com/erick-jeronimo/api-posts.git)
 ```
 
 3. Defina seu ambiente
