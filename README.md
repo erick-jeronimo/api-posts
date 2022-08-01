@@ -33,13 +33,19 @@ git clone https://github.com/erick-jeronimo/api-posts.git
 cp .env.example .env
 ```
 
-4. Instale os pacotes necessários
+4. No seu .env, configure o drive de filas:
+
+```
+QUEUE_CONNECTION=database
+```
+
+5. Instale os pacotes necessários
 
 ```
 composer install
 ```
 
-5. Execute as migrations do projeto (certifique-se que o serviço do Postgres esteja ativo)
+6. Execute as migrations do projeto (certifique-se que o serviço do Postgres esteja ativo)
 
 - Opcionalmente rode os Seeders do projeto para ter dados de teste (recomendado)
 
@@ -47,13 +53,13 @@ composer install
 php artisan migrate --seed
 ```
 
-6. Execute a aplicação
+7. Execute a aplicação
 
 ```
 php artisan serve
 ```
 
-7. Em uma nova aba/janela a do terminal do seu sistema operacional, execute o serviço de filas do laravel
+8. Em uma nova aba/janela a do terminal do seu sistema operacional, execute o serviço de filas do laravel
 
 ```
 php artisan queue:work
