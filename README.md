@@ -88,7 +88,7 @@ A seguir temos a documentação da API com seus endpoints:
 | Atualizar um Post               | Posts    | PUT         | /posts/{post}            | 200, 404       |
 | Remover um Post                 | Posts    | DELETE      | /posts/{post}            | 204, 404       |
 
-1. Para mais detalhes e exemplos sobre a utilização da API, abra o arquivo de collection (***API - Posts.json***) em sua ferramenta favorita (Ex.: Postman / Insomnia)
+1. Para mais detalhes e exemplos sobre a utilização da API, abra o arquivo de collection ([API - Posts.json](https://github.com/erick-jeronimo/api-posts/blob/master/API%20-%20Posts.json)) em sua ferramenta favorita (Ex.: Postman / Insomnia)
 2. Opcionalmente, você pode utilizar o endereço /request-docs/ para visualizar a documentação via browser
 3. Para mais detalhes, visite a [documentação da Biblioteca LDR](https://github.com/rakutentech/laravel-request-docs)
 
