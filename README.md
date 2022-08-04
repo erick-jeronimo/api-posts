@@ -17,6 +17,7 @@ As tecnologias utilizadas neste projeto foram:
 - Laravel Framework 8.83.23
 - Composer version 2.1.8
 - php v8.1.8
+- Postgresql v13.4
 
 ## Instalação
 
